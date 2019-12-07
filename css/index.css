@@ -1,0 +1,116 @@
+***************************通用begin*****************************/
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	color: #000;
+	font-family: "微软雅黑"；
+
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+
+/****************************通用end*****************************/
+
+
+/****************************头部begin*****************************/
+#l_head{
+	/*background: red;*/
+}
+
+#l_head .top-bar{
+	height: 40px;
+	line-height: 39px;
+	border-bottom: 1px solid #e0e0e0;
+}
+#l_head .top-bar .container .row>div+div{
+	border-left: 1px solid #e0e0e0;
+}
+#l_head .top-bar .container .row .top-bar-1 a{
+	position: relative;
+}
+#l_head .top-bar .container .row .top-bar-1 a>img{
+	position: absolute;
+	width: 100px;
+	top: 25px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 999;
+	display: none;
+
+}
+#l_head .top-bar .container .row .top-bar-1 a:hover img{
+	display: block;
+}
+.icon-phone::before{
+	content: '\e958';
+	font-size: 13px;
+}
+
+/**********************下部分**************/
+#l_head .navbar_l{
+	border-bottom: 1px solid #e0e0e0;
+}
+#l_head .navbar_l .navbar-collapse .navbar-nav>li>a{
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+#l_head .navbar_l .navbar-collapse .navbar-nav>li>a:hover{
+	border-bottom: 2px solid yellow;
+}
+
+/****************************头部end*****************************/
+
+
+
+/****************************轮播begin*****************************/
+#l_carousel .carousel-inner .carousel-item{
+	background: no-repeat center center;
+	background-size: cover;
+	/*height: 410px;*/
+}
+#l_carousel .carousel-inner .carousel-item img{
+	width: 100%;
+}
+@media screen and (min-width: 900px) {
+	#l_carousel .carousel-inner>div{
+	/*background: green;*/
+	height: 410px;
+}
+}
+/****************************轮播end*****************************/
+
+
+/****************************新人指南begin*****************************/
+#l_new{
+}
+
+/****************************新人指南end*******************************/
+
+
+/****************************商品begin*****************************/
+#l_product{
+	background-color: #f0f0f0;
+}
+
+/****************************商品end*******************************/
+
+
+/****************************尾部begin*****************************/
+#l_end{
+	color: #fff;
+}
+
+/****************************尾部end*******************************/
